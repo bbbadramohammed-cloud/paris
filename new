@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8945dc265399e4d9739a03491ddedc33 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8945dc265399e4d9739a03491ddedc33" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8945dc265399e4d9739a03491ddedc33 = L.map(
+                "map_8945dc265399e4d9739a03491ddedc33",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b077fb5e9fdc29faee6423f8d1d5d051 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+            var marker_d2621313a861c663bf46d31ae2dbe1b2 = L.marker(
+                [48.8721, 2.3129],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_0c9b0e728f3ef20810432a8988aff664 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14327689bac2c874d92478261958b281 = $(`<div id="html_14327689bac2c874d92478261958b281" style="width: 100.0%; height: 100.0%;">Balzac – Place Georges Guillaumin (8e)</div>`)[0];
+            popup_0c9b0e728f3ef20810432a8988aff664.setContent(html_14327689bac2c874d92478261958b281);
+        
+
+        marker_d2621313a861c663bf46d31ae2dbe1b2.bindPopup(popup_0c9b0e728f3ef20810432a8988aff664)
+        ;
+
+        
+    
+    
+            marker_d2621313a861c663bf46d31ae2dbe1b2.bindTooltip(
+                `<div>
+                     Balzac – Place Georges Guillaumin (8e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d5a624e69cce333673d8e3a57d891d7 = L.marker(
+                [48.8426, 2.3525],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_fbf24848fab67dfd62d20d15b68f3421 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b20b1b2a5f0cac61f78fd3f044d56cf = $(`<div id="html_8b20b1b2a5f0cac61f78fd3f044d56cf" style="width: 100.0%; height: 100.0%;">Dante – Square Michel‑Foucault (5e)</div>`)[0];
+            popup_fbf24848fab67dfd62d20d15b68f3421.setContent(html_8b20b1b2a5f0cac61f78fd3f044d56cf);
+        
+
+        marker_3d5a624e69cce333673d8e3a57d891d7.bindPopup(popup_fbf24848fab67dfd62d20d15b68f3421)
+        ;
+
+        
+    
+    
+            marker_3d5a624e69cce333673d8e3a57d891d7.bindTooltip(
+                `<div>
+                     Dante – Square Michel‑Foucault (5e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a658bb7dc9d314c5a877adbef0f1238 = L.marker(
+                [48.8843, 2.3105],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_bed9f0d3475efe2701996eddf43b67c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2a689f28a211a81dc84ec309d220790 = $(`<div id="html_c2a689f28a211a81dc84ec309d220790" style="width: 100.0%; height: 100.0%;">Alexandre Dumas père et fils – Place du Général Catroux (17e)</div>`)[0];
+            popup_bed9f0d3475efe2701996eddf43b67c5.setContent(html_c2a689f28a211a81dc84ec309d220790);
+        
+
+        marker_5a658bb7dc9d314c5a877adbef0f1238.bindPopup(popup_bed9f0d3475efe2701996eddf43b67c5)
+        ;
+
+        
+    
+    
+            marker_5a658bb7dc9d314c5a877adbef0f1238.bindTooltip(
+                `<div>
+                     Alexandre Dumas père et fils – Place du Général Catroux (17e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad29626f03bc5dae63ff2a2eb4cdf8e7 = L.marker(
+                [48.8683, 2.311],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_80b9ec340c978f769502ea24b8fdf266 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_980bd969ef159960181263eae2dda4d9 = $(`<div id="html_980bd969ef159960181263eae2dda4d9" style="width: 100.0%; height: 100.0%;">Alphonse Daudet – Jardin des Champs‑Élysées (8e)</div>`)[0];
+            popup_80b9ec340c978f769502ea24b8fdf266.setContent(html_980bd969ef159960181263eae2dda4d9);
+        
+
+        marker_ad29626f03bc5dae63ff2a2eb4cdf8e7.bindPopup(popup_80b9ec340c978f769502ea24b8fdf266)
+        ;
+
+        
+    
+    
+            marker_ad29626f03bc5dae63ff2a2eb4cdf8e7.bindTooltip(
+                `<div>
+                     Alphonse Daudet – Jardin des Champs‑Élysées (8e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe966a1ddc5aa3e36dc47115e3141a34 = L.marker(
+                [48.8414, 2.298],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_ed6be7c6caa3e60a65f18479be854f93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4c16dac13b50d837b82dd39cea53ec4 = $(`<div id="html_f4c16dac13b50d837b82dd39cea53ec4" style="width: 100.0%; height: 100.0%;">Émile Zola – Place Dreyfus (15e)</div>`)[0];
+            popup_ed6be7c6caa3e60a65f18479be854f93.setContent(html_f4c16dac13b50d837b82dd39cea53ec4);
+        
+
+        marker_fe966a1ddc5aa3e36dc47115e3141a34.bindPopup(popup_ed6be7c6caa3e60a65f18479be854f93)
+        ;
+
+        
+    
+    
+            marker_fe966a1ddc5aa3e36dc47115e3141a34.bindTooltip(
+                `<div>
+                     Émile Zola – Place Dreyfus (15e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a640ed43f670fc8ebe706543d212162 = L.marker(
+                [48.8855, 2.3025],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_cefb10723d040d899950bf18492ad563 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78e481f453042ec7131231e2b63a5204 = $(`<div id="html_78e481f453042ec7131231e2b63a5204" style="width: 100.0%; height: 100.0%;">Tristan Bernard – Place Tristan‑Bernard (17e)</div>`)[0];
+            popup_cefb10723d040d899950bf18492ad563.setContent(html_78e481f453042ec7131231e2b63a5204);
+        
+
+        marker_9a640ed43f670fc8ebe706543d212162.bindPopup(popup_cefb10723d040d899950bf18492ad563)
+        ;
+
+        
+    
+    
+            marker_9a640ed43f670fc8ebe706543d212162.bindTooltip(
+                `<div>
+                     Tristan Bernard – Place Tristan‑Bernard (17e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_259266217abddde6e30cde16dfe6e446 = L.marker(
+                [48.8492, 2.3336],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_c3a49d0fce10fcdac20010edb78a18b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00352f4c4048028c95da50cf5ea9815f = $(`<div id="html_00352f4c4048028c95da50cf5ea9815f" style="width: 100.0%; height: 100.0%;">François Mauriac – Place Alphonse‑Deville (6e)</div>`)[0];
+            popup_c3a49d0fce10fcdac20010edb78a18b4.setContent(html_00352f4c4048028c95da50cf5ea9815f);
+        
+
+        marker_259266217abddde6e30cde16dfe6e446.bindPopup(popup_c3a49d0fce10fcdac20010edb78a18b4)
+        ;
+
+        
+    
+    
+            marker_259266217abddde6e30cde16dfe6e446.bindTooltip(
+                `<div>
+                     François Mauriac – Place Alphonse‑Deville (6e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64ee3aa9161b7f76a1f1b27934f59634 = L.marker(
+                [48.8651, 2.2792],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_b54f5a606476852623b37fd6cf010326 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd454f9af83ea830f903677d1d2479dc = $(`<div id="html_cd454f9af83ea830f903677d1d2479dc" style="width: 100.0%; height: 100.0%;">Victor Hugo – Av. Victor Hugo × Av. Henri‑Martin (16e)</div>`)[0];
+            popup_b54f5a606476852623b37fd6cf010326.setContent(html_cd454f9af83ea830f903677d1d2479dc);
+        
+
+        marker_64ee3aa9161b7f76a1f1b27934f59634.bindPopup(popup_b54f5a606476852623b37fd6cf010326)
+        ;
+
+        
+    
+    
+            marker_64ee3aa9161b7f76a1f1b27934f59634.bindTooltip(
+                `<div>
+                     Victor Hugo – Av. Victor Hugo × Av. Henri‑Martin (16e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51011f3e9bbf280312a22059ce3cdde9 = L.marker(
+                [48.8524, 2.2748],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_cca9f9e009d2a15a414aff0c8bf27a06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3da0bb6227aa5519882a57672061807 = $(`<div id="html_e3da0bb6227aa5519882a57672061807" style="width: 100.0%; height: 100.0%;">René Goscinny – Rue Boulainvilliers × Rue Singer (16e)</div>`)[0];
+            popup_cca9f9e009d2a15a414aff0c8bf27a06.setContent(html_e3da0bb6227aa5519882a57672061807);
+        
+
+        marker_51011f3e9bbf280312a22059ce3cdde9.bindPopup(popup_cca9f9e009d2a15a414aff0c8bf27a06)
+        ;
+
+        
+    
+    
+            marker_51011f3e9bbf280312a22059ce3cdde9.bindTooltip(
+                `<div>
+                     René Goscinny – Rue Boulainvilliers × Rue Singer (16e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_411f2915123c95a7717435a65a862cdd = L.marker(
+                [48.8462, 2.346],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_b1be1c11afd81468a1de7824424e6cc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9ec7dbad751e55280fe2d703037b4c1 = $(`<div id="html_d9ec7dbad751e55280fe2d703037b4c1" style="width: 100.0%; height: 100.0%;">Pierre Corneille – Place du Panthéon</div>`)[0];
+            popup_b1be1c11afd81468a1de7824424e6cc2.setContent(html_d9ec7dbad751e55280fe2d703037b4c1);
+        
+
+        marker_411f2915123c95a7717435a65a862cdd.bindPopup(popup_b1be1c11afd81468a1de7824424e6cc2)
+        ;
+
+        
+    
+    
+            marker_411f2915123c95a7717435a65a862cdd.bindTooltip(
+                `<div>
+                     Pierre Corneille – Place du Panthéon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbfb847c06a2fb979cd0a377a92d0fd0 = L.marker(
+                [48.8375, 2.278],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_174c1ff377f7c05b2118b7ac3f70af21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93fe87f7cb6e95851e3ee1b9cf6eaf61 = $(`<div id="html_93fe87f7cb6e95851e3ee1b9cf6eaf61" style="width: 100.0%; height: 100.0%;">Béla Bartók – Square Béla‑Bartók (15e)</div>`)[0];
+            popup_174c1ff377f7c05b2118b7ac3f70af21.setContent(html_93fe87f7cb6e95851e3ee1b9cf6eaf61);
+        
+
+        marker_bbfb847c06a2fb979cd0a377a92d0fd0.bindPopup(popup_174c1ff377f7c05b2118b7ac3f70af21)
+        ;
+
+        
+    
+    
+            marker_bbfb847c06a2fb979cd0a377a92d0fd0.bindTooltip(
+                `<div>
+                     Béla Bartók – Square Béla‑Bartók (15e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca4c8da49b903d5e4f63919e202e5cb6 = L.marker(
+                [48.8512, 2.3391],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_ea6b51f2243293ffbb83eea8250fa6e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39eb978c4ff5148a9a4c01127cd19ed2 = $(`<div id="html_39eb978c4ff5148a9a4c01127cd19ed2" style="width: 100.0%; height: 100.0%;">Charles Aznavour – Place de l’Odéon (6e)</div>`)[0];
+            popup_ea6b51f2243293ffbb83eea8250fa6e6.setContent(html_39eb978c4ff5148a9a4c01127cd19ed2);
+        
+
+        marker_ca4c8da49b903d5e4f63919e202e5cb6.bindPopup(popup_ea6b51f2243293ffbb83eea8250fa6e6)
+        ;
+
+        
+    
+    
+            marker_ca4c8da49b903d5e4f63919e202e5cb6.bindTooltip(
+                `<div>
+                     Charles Aznavour – Place de l’Odéon (6e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9283de0dbdb6503e55c348721e9741f = L.marker(
+                [48.8556, 2.3175],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_196572283e5a4357c5a072a1a50ae95e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9431bd0445114316b103c2da97460de1 = $(`<div id="html_9431bd0445114316b103c2da97460de1" style="width: 100.0%; height: 100.0%;">César Franck – Square Samuel‑Rousseau (7e)</div>`)[0];
+            popup_196572283e5a4357c5a072a1a50ae95e.setContent(html_9431bd0445114316b103c2da97460de1);
+        
+
+        marker_f9283de0dbdb6503e55c348721e9741f.bindPopup(popup_196572283e5a4357c5a072a1a50ae95e)
+        ;
+
+        
+    
+    
+            marker_f9283de0dbdb6503e55c348721e9741f.bindTooltip(
+                `<div>
+                     César Franck – Square Samuel‑Rousseau (7e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b83c76c55eea2dc7a1df54ebaa50be94 = L.marker(
+                [48.8866, 2.3389],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_15170e7dc5a976bd743a6978e6b5b418 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19b4abd609b6380ff0da72d09395ef86 = $(`<div id="html_19b4abd609b6380ff0da72d09395ef86" style="width: 100.0%; height: 100.0%;">Dalida – Place Dalida (18e)</div>`)[0];
+            popup_15170e7dc5a976bd743a6978e6b5b418.setContent(html_19b4abd609b6380ff0da72d09395ef86);
+        
+
+        marker_b83c76c55eea2dc7a1df54ebaa50be94.bindPopup(popup_15170e7dc5a976bd743a6978e6b5b418)
+        ;
+
+        
+    
+    
+            marker_b83c76c55eea2dc7a1df54ebaa50be94.bindTooltip(
+                `<div>
+                     Dalida – Place Dalida (18e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_328890161b0cbf8d139c06060a312d1f = L.marker(
+                [48.8655, 2.3323],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_0d6f292b80fe0ce2e5f2c814dfe9b3db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fca18e5aa7a0152642f0ace439f3e008 = $(`<div id="html_fca18e5aa7a0152642f0ace439f3e008" style="width: 100.0%; height: 100.0%;">Jeanne d’Arc – Place des Pyramides (1er)</div>`)[0];
+            popup_0d6f292b80fe0ce2e5f2c814dfe9b3db.setContent(html_fca18e5aa7a0152642f0ace439f3e008);
+        
+
+        marker_328890161b0cbf8d139c06060a312d1f.bindPopup(popup_0d6f292b80fe0ce2e5f2c814dfe9b3db)
+        ;
+
+        
+    
+    
+            marker_328890161b0cbf8d139c06060a312d1f.bindTooltip(
+                `<div>
+                     Jeanne d’Arc – Place des Pyramides (1er)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b75933b90803969d4ffa8623b4e8f17 = L.marker(
+                [48.8369, 2.3565],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_9de6e97a6f73a14b64af6cd8cd5e5896 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c09cbe2fba23f3c4cb3afdf8e65e391c = $(`<div id="html_c09cbe2fba23f3c4cb3afdf8e65e391c" style="width: 100.0%; height: 100.0%;">Jeanne d’Arc – Bd Saint‑Marcel / Quai de la Gare / Austerlitz (13e)</div>`)[0];
+            popup_9de6e97a6f73a14b64af6cd8cd5e5896.setContent(html_c09cbe2fba23f3c4cb3afdf8e65e391c);
+        
+
+        marker_7b75933b90803969d4ffa8623b4e8f17.bindPopup(popup_9de6e97a6f73a14b64af6cd8cd5e5896)
+        ;
+
+        
+    
+    
+            marker_7b75933b90803969d4ffa8623b4e8f17.bindTooltip(
+                `<div>
+                     Jeanne d’Arc – Bd Saint‑Marcel / Quai de la Gare / Austerlitz (13e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac95f3d5e2e853c9426f8d454ebb35f2 = L.marker(
+                [48.8345, 2.2893],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_b5e43f595f5f1da8471c954089710a88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_406d2fb2609111c4aaca8e35ad7e45c9 = $(`<div id="html_406d2fb2609111c4aaca8e35ad7e45c9" style="width: 100.0%; height: 100.0%;">Maryse Bastié – Square Carlo‑Sarrabezolles (15e)</div>`)[0];
+            popup_b5e43f595f5f1da8471c954089710a88.setContent(html_406d2fb2609111c4aaca8e35ad7e45c9);
+        
+
+        marker_ac95f3d5e2e853c9426f8d454ebb35f2.bindPopup(popup_b5e43f595f5f1da8471c954089710a88)
+        ;
+
+        
+    
+    
+            marker_ac95f3d5e2e853c9426f8d454ebb35f2.bindTooltip(
+                `<div>
+                     Maryse Bastié – Square Carlo‑Sarrabezolles (15e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7ee45cf3a3d8d38694419f1a476d6b6 = L.marker(
+                [48.853, 2.3499],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_dd3c079871cf9753f8c6a19cbef2c794 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4245ff933eba5584a49250f86517ab9e = $(`<div id="html_4245ff933eba5584a49250f86517ab9e" style="width: 100.0%; height: 100.0%;">Charlemagne – Parvis Notre‑Dame (4e)</div>`)[0];
+            popup_dd3c079871cf9753f8c6a19cbef2c794.setContent(html_4245ff933eba5584a49250f86517ab9e);
+        
+
+        marker_c7ee45cf3a3d8d38694419f1a476d6b6.bindPopup(popup_dd3c079871cf9753f8c6a19cbef2c794)
+        ;
+
+        
+    
+    
+            marker_c7ee45cf3a3d8d38694419f1a476d6b6.bindTooltip(
+                `<div>
+                     Charlemagne – Parvis Notre‑Dame (4e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10fd5ab883d529d37b942a1f9aa19c9f = L.marker(
+                [48.8483, 2.3958],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_f3f557bc7c1ac949be050ca77e10d6b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7c5922a5d7c6a0f098a5eb80c93288b = $(`<div id="html_f7c5922a5d7c6a0f098a5eb80c93288b" style="width: 100.0%; height: 100.0%;">Philippe‑Auguste & Saint Louis – Place de la Nation</div>`)[0];
+            popup_f3f557bc7c1ac949be050ca77e10d6b0.setContent(html_f7c5922a5d7c6a0f098a5eb80c93288b);
+        
+
+        marker_10fd5ab883d529d37b942a1f9aa19c9f.bindPopup(popup_f3f557bc7c1ac949be050ca77e10d6b0)
+        ;
+
+        
+    
+    
+            marker_10fd5ab883d529d37b942a1f9aa19c9f.bindTooltip(
+                `<div>
+                     Philippe‑Auguste & Saint Louis – Place de la Nation
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce441007e9bf0a0811036cb478224761 = L.marker(
+                [48.8571, 2.3419],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_951438287a2deb6b56b37ceba324bd64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdc72f50583f4dad4e7aaf431d3ed4bd = $(`<div id="html_bdc72f50583f4dad4e7aaf431d3ed4bd" style="width: 100.0%; height: 100.0%;">Henri IV – Pont Neuf</div>`)[0];
+            popup_951438287a2deb6b56b37ceba324bd64.setContent(html_bdc72f50583f4dad4e7aaf431d3ed4bd);
+        
+
+        marker_ce441007e9bf0a0811036cb478224761.bindPopup(popup_951438287a2deb6b56b37ceba324bd64)
+        ;
+
+        
+    
+    
+            marker_ce441007e9bf0a0811036cb478224761.bindTooltip(
+                `<div>
+                     Henri IV – Pont Neuf
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abaac61fdc2e3d31fa3610de8d33c193 = L.marker(
+                [48.8555, 2.3652],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_579e54713376e08d6e937cb28d149337 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6be21809600e4e16bc6c5a51a39d6c1e = $(`<div id="html_6be21809600e4e16bc6c5a51a39d6c1e" style="width: 100.0%; height: 100.0%;">Louis XIII – Place des Vosges</div>`)[0];
+            popup_579e54713376e08d6e937cb28d149337.setContent(html_6be21809600e4e16bc6c5a51a39d6c1e);
+        
+
+        marker_abaac61fdc2e3d31fa3610de8d33c193.bindPopup(popup_579e54713376e08d6e937cb28d149337)
+        ;
+
+        
+    
+    
+            marker_abaac61fdc2e3d31fa3610de8d33c193.bindTooltip(
+                `<div>
+                     Louis XIII – Place des Vosges
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d17d83db2a87220abfeea5e7f543d15 = L.marker(
+                [48.8677, 2.3411],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_4830a2699074c8688c6b2ec99c7fbfd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_951d51b212050a7804e4fdc296e6ca77 = $(`<div id="html_951d51b212050a7804e4fdc296e6ca77" style="width: 100.0%; height: 100.0%;">Louis XIV – Place des Victoires</div>`)[0];
+            popup_4830a2699074c8688c6b2ec99c7fbfd3.setContent(html_951d51b212050a7804e4fdc296e6ca77);
+        
+
+        marker_8d17d83db2a87220abfeea5e7f543d15.bindPopup(popup_4830a2699074c8688c6b2ec99c7fbfd3)
+        ;
+
+        
+    
+    
+            marker_8d17d83db2a87220abfeea5e7f543d15.bindTooltip(
+                `<div>
+                     Louis XIV – Place des Victoires
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba30b0eead60a1e0fbe0d354e0c1212d = L.marker(
+                [48.867, 2.329],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_d39d4440b40904dacdf2d1d2d81fe094 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f660cd323cad753d2cea8e52a4cc886f = $(`<div id="html_f660cd323cad753d2cea8e52a4cc886f" style="width: 100.0%; height: 100.0%;">Napoléon – Place Vendôme</div>`)[0];
+            popup_d39d4440b40904dacdf2d1d2d81fe094.setContent(html_f660cd323cad753d2cea8e52a4cc886f);
+        
+
+        marker_ba30b0eead60a1e0fbe0d354e0c1212d.bindPopup(popup_d39d4440b40904dacdf2d1d2d81fe094)
+        ;
+
+        
+    
+    
+            marker_ba30b0eead60a1e0fbe0d354e0c1212d.bindTooltip(
+                `<div>
+                     Napoléon – Place Vendôme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2284ed0fadbdc2757f9dcb09be046ce = L.marker(
+                [48.8518, 2.3419],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_55291952306e20756031a727525aa8a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96b77db24a09b8657f97c6ec1b6acdf7 = $(`<div id="html_96b77db24a09b8657f97c6ec1b6acdf7" style="width: 100.0%; height: 100.0%;">Danton – Place Henri Mondor (Odéon, 6e)</div>`)[0];
+            popup_55291952306e20756031a727525aa8a7.setContent(html_96b77db24a09b8657f97c6ec1b6acdf7);
+        
+
+        marker_d2284ed0fadbdc2757f9dcb09be046ce.bindPopup(popup_55291952306e20756031a727525aa8a7)
+        ;
+
+        
+    
+    
+            marker_d2284ed0fadbdc2757f9dcb09be046ce.bindTooltip(
+                `<div>
+                     Danton – Place Henri Mondor (Odéon, 6e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8644c8dea3ae1ba513d3b4783d2a769c = L.marker(
+                [48.8546, 2.3671],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_1678daf089514c54bcc21dde96480f94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a341e6e1f55e8be8b15126a8ef062d18 = $(`<div id="html_a341e6e1f55e8be8b15126a8ef062d18" style="width: 100.0%; height: 100.0%;">Beaumarchais – Rue Saint‑Antoine × Rue des Tournelles (4e)</div>`)[0];
+            popup_1678daf089514c54bcc21dde96480f94.setContent(html_a341e6e1f55e8be8b15126a8ef062d18);
+        
+
+        marker_8644c8dea3ae1ba513d3b4783d2a769c.bindPopup(popup_1678daf089514c54bcc21dde96480f94)
+        ;
+
+        
+    
+    
+            marker_8644c8dea3ae1ba513d3b4783d2a769c.bindTooltip(
+                `<div>
+                     Beaumarchais – Rue Saint‑Antoine × Rue des Tournelles (4e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_983b4799089881397ea74aafc429e257 = L.marker(
+                [48.8396, 2.3438],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_6efa5ac4a5bd5d415a0dbfaa9ca95cd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0cb7fc6cf5d18b30d1dd9e3d98b2b5b = $(`<div id="html_e0cb7fc6cf5d18b30d1dd9e3d98b2b5b" style="width: 100.0%; height: 100.0%;">Francis Garnier – Carrefour Port‑Royal</div>`)[0];
+            popup_6efa5ac4a5bd5d415a0dbfaa9ca95cd4.setContent(html_e0cb7fc6cf5d18b30d1dd9e3d98b2b5b);
+        
+
+        marker_983b4799089881397ea74aafc429e257.bindPopup(popup_6efa5ac4a5bd5d415a0dbfaa9ca95cd4)
+        ;
+
+        
+    
+    
+            marker_983b4799089881397ea74aafc429e257.bindTooltip(
+                `<div>
+                     Francis Garnier – Carrefour Port‑Royal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf63f1ed44b3ab53dcc88392bc1450d4 = L.marker(
+                [48.8626, 2.287],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_c64ece33800853e4ba6189d4d28121c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce152f666ad00f62bbb03784447585cc = $(`<div id="html_ce152f666ad00f62bbb03784447585cc" style="width: 100.0%; height: 100.0%;">Foch – Place du Trocadéro</div>`)[0];
+            popup_c64ece33800853e4ba6189d4d28121c8.setContent(html_ce152f666ad00f62bbb03784447585cc);
+        
+
+        marker_bf63f1ed44b3ab53dcc88392bc1450d4.bindPopup(popup_c64ece33800853e4ba6189d4d28121c8)
+        ;
+
+        
+    
+    
+            marker_bf63f1ed44b3ab53dcc88392bc1450d4.bindTooltip(
+                `<div>
+                     Foch – Place du Trocadéro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7c91afa1b27064128edb35083503639 = L.marker(
+                [48.8666, 2.3135],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_a09d5ac23597b7716590b825536fd366 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_323e76f07782383cb9c4077feff8f446 = $(`<div id="html_323e76f07782383cb9c4077feff8f446" style="width: 100.0%; height: 100.0%;">Clémenceau & Charles de Gaulle – Champs‑Élysées</div>`)[0];
+            popup_a09d5ac23597b7716590b825536fd366.setContent(html_323e76f07782383cb9c4077feff8f446);
+        
+
+        marker_e7c91afa1b27064128edb35083503639.bindPopup(popup_a09d5ac23597b7716590b825536fd366)
+        ;
+
+        
+    
+    
+            marker_e7c91afa1b27064128edb35083503639.bindTooltip(
+                `<div>
+                     Clémenceau & Charles de Gaulle – Champs‑Élysées
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b52fd3a353fcb04df2898a9b5acc1bf = L.marker(
+                [48.8643, 2.3237],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_5dee88f8cd55a05ff4d0912f519f532b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4732b756cd3c833ee2815ae1e8c86d89 = $(`<div id="html_4732b756cd3c833ee2815ae1e8c86d89" style="width: 100.0%; height: 100.0%;">Thomas Jefferson – Passerelle Senghor</div>`)[0];
+            popup_5dee88f8cd55a05ff4d0912f519f532b.setContent(html_4732b756cd3c833ee2815ae1e8c86d89);
+        
+
+        marker_7b52fd3a353fcb04df2898a9b5acc1bf.bindPopup(popup_5dee88f8cd55a05ff4d0912f519f532b)
+        ;
+
+        
+    
+    
+            marker_7b52fd3a353fcb04df2898a9b5acc1bf.bindTooltip(
+                `<div>
+                     Thomas Jefferson – Passerelle Senghor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06bafaa9c4e83df7ada8bd1b827ef5b5 = L.marker(
+                [48.8661, 2.313],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_111579ee1afb8b6cff312961dcb35cfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0defd744dbcefed98219528e2dd1df59 = $(`<div id="html_0defd744dbcefed98219528e2dd1df59" style="width: 100.0%; height: 100.0%;">Winston Churchill – Avenue Winston‑Churchill</div>`)[0];
+            popup_111579ee1afb8b6cff312961dcb35cfd.setContent(html_0defd744dbcefed98219528e2dd1df59);
+        
+
+        marker_06bafaa9c4e83df7ada8bd1b827ef5b5.bindPopup(popup_111579ee1afb8b6cff312961dcb35cfd)
+        ;
+
+        
+    
+    
+            marker_06bafaa9c4e83df7ada8bd1b827ef5b5.bindTooltip(
+                `<div>
+                     Winston Churchill – Avenue Winston‑Churchill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67da56fc4baa471b6aa87b078282b636 = L.marker(
+                [48.8537, 2.347],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_83e2ca2f137d578830975c0181af7632 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9714b7ac8eb53a38759665c5ae0ff159 = $(`<div id="html_9714b7ac8eb53a38759665c5ae0ff159" style="width: 100.0%; height: 100.0%;">Denis Diderot – Boulevard Saint‑Germain</div>`)[0];
+            popup_83e2ca2f137d578830975c0181af7632.setContent(html_9714b7ac8eb53a38759665c5ae0ff159);
+        
+
+        marker_67da56fc4baa471b6aa87b078282b636.bindPopup(popup_83e2ca2f137d578830975c0181af7632)
+        ;
+
+        
+    
+    
+            marker_67da56fc4baa471b6aa87b078282b636.bindTooltip(
+                `<div>
+                     Denis Diderot – Boulevard Saint‑Germain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce7067ee2081b1ad9de992555b4c033a = L.marker(
+                [48.806, 2.1296],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_d96a7b8aba6ff645acb55abac0192deb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_047e8376de89af4e5b6ff7b7fe46e0e2 = $(`<div id="html_047e8376de89af4e5b6ff7b7fe46e0e2" style="width: 100.0%; height: 100.0%;">Simón Bolívar, La Fayette & Albert Ier – Boulevard de la Reine (Versailles)</div>`)[0];
+            popup_d96a7b8aba6ff645acb55abac0192deb.setContent(html_047e8376de89af4e5b6ff7b7fe46e0e2);
+        
+
+        marker_ce7067ee2081b1ad9de992555b4c033a.bindPopup(popup_d96a7b8aba6ff645acb55abac0192deb)
+        ;
+
+        
+    
+    
+            marker_ce7067ee2081b1ad9de992555b4c033a.bindTooltip(
+                `<div>
+                     Simón Bolívar, La Fayette & Albert Ier – Boulevard de la Reine (Versailles)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ed793bfbda122704511c5a4a3252d49 = L.marker(
+                [48.8466, 2.3127],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_711d2044b39538440c0f3ffc233f9d94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_755513ae8a7553db97c723bc6d433a16 = $(`<div id="html_755513ae8a7553db97c723bc6d433a16" style="width: 100.0%; height: 100.0%;">Louis Pasteur – Place de Bréteuil</div>`)[0];
+            popup_711d2044b39538440c0f3ffc233f9d94.setContent(html_755513ae8a7553db97c723bc6d433a16);
+        
+
+        marker_3ed793bfbda122704511c5a4a3252d49.bindPopup(popup_711d2044b39538440c0f3ffc233f9d94)
+        ;
+
+        
+    
+    
+            marker_3ed793bfbda122704511c5a4a3252d49.bindTooltip(
+                `<div>
+                     Louis Pasteur – Place de Bréteuil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1fb7f7accce05ea97585346adbbff7f = L.marker(
+                [48.8411, 2.3151],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_80a3a229a7b8de606ca634dc2bc1a1f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25596d01868a40a7c0883f42f79e7d54 = $(`<div id="html_25596d01868a40a7c0883f42f79e7d54" style="width: 100.0%; height: 100.0%;">Louis Pasteur – Institut Pasteur</div>`)[0];
+            popup_80a3a229a7b8de606ca634dc2bc1a1f3.setContent(html_25596d01868a40a7c0883f42f79e7d54);
+        
+
+        marker_d1fb7f7accce05ea97585346adbbff7f.bindPopup(popup_80a3a229a7b8de606ca634dc2bc1a1f3)
+        ;
+
+        
+    
+    
+            marker_d1fb7f7accce05ea97585346adbbff7f.bindTooltip(
+                `<div>
+                     Louis Pasteur – Institut Pasteur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df061ad35d00910d64e0ce4ccb407d4f = L.marker(
+                [48.8456, 2.3276],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_d6427b76e1ee9e07d0d5fd85b9c6bb80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32da8cff43fe3515364523333a8e7847 = $(`<div id="html_32da8cff43fe3515364523333a8e7847" style="width: 100.0%; height: 100.0%;">Capitaine Dreyfus – Boulevard Raspail</div>`)[0];
+            popup_d6427b76e1ee9e07d0d5fd85b9c6bb80.setContent(html_32da8cff43fe3515364523333a8e7847);
+        
+
+        marker_df061ad35d00910d64e0ce4ccb407d4f.bindPopup(popup_d6427b76e1ee9e07d0d5fd85b9c6bb80)
+        ;
+
+        
+    
+    
+            marker_df061ad35d00910d64e0ce4ccb407d4f.bindTooltip(
+                `<div>
+                     Capitaine Dreyfus – Boulevard Raspail
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81f18896a1966f8017d304113e976e10 = L.marker(
+                [48.8714, 2.3299],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_7eec657ed8a77c84ee702d8032e42dd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3350da5c9c682bc85e1c8ce8a96b4339 = $(`<div id="html_3350da5c9c682bc85e1c8ce8a96b4339" style="width: 100.0%; height: 100.0%;">Édouard VII – Place Édouard VII</div>`)[0];
+            popup_7eec657ed8a77c84ee702d8032e42dd5.setContent(html_3350da5c9c682bc85e1c8ce8a96b4339);
+        
+
+        marker_81f18896a1966f8017d304113e976e10.bindPopup(popup_7eec657ed8a77c84ee702d8032e42dd5)
+        ;
+
+        
+    
+    
+            marker_81f18896a1966f8017d304113e976e10.bindTooltip(
+                `<div>
+                     Édouard VII – Place Édouard VII
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cdc6856810e86e6dc19b8b31cc998ea3 = L.marker(
+                [48.8337, 2.3325],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_5f40bebfc175006a885329808334db02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f6ee39920d2b00e780bacbcba44554b = $(`<div id="html_7f6ee39920d2b00e780bacbcba44554b" style="width: 100.0%; height: 100.0%;">Philippe Leclerc – Place du 25 août 1944 (approx.)</div>`)[0];
+            popup_5f40bebfc175006a885329808334db02.setContent(html_7f6ee39920d2b00e780bacbcba44554b);
+        
+
+        marker_cdc6856810e86e6dc19b8b31cc998ea3.bindPopup(popup_5f40bebfc175006a885329808334db02)
+        ;
+
+        
+    
+    
+            marker_cdc6856810e86e6dc19b8b31cc998ea3.bindTooltip(
+                `<div>
+                     Philippe Leclerc – Place du 25 août 1944 (approx.)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c67108926e40b50c261bcda1d0afc190 = L.marker(
+                [48.8534, 2.4052],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_a238ba1fe88051cca8d53464b4a6df79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b148fc2598bc6f436b0b92986a323bb8 = $(`<div id="html_b148fc2598bc6f436b0b92986a323bb8" style="width: 100.0%; height: 100.0%;">Édith Piaf – Place Édith Piaf</div>`)[0];
+            popup_a238ba1fe88051cca8d53464b4a6df79.setContent(html_b148fc2598bc6f436b0b92986a323bb8);
+        
+
+        marker_c67108926e40b50c261bcda1d0afc190.bindPopup(popup_a238ba1fe88051cca8d53464b4a6df79)
+        ;
+
+        
+    
+    
+            marker_c67108926e40b50c261bcda1d0afc190.bindTooltip(
+                `<div>
+                     Édith Piaf – Place Édith Piaf
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bdeec253ff1fb65082c2d82dbd6f2c8d = L.marker(
+                [48.8636, 2.3405],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_a7bbcda0cd695b42bc88fb25d0732a22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edba5b04ee64b722d1d98e2d4a4a5a58 = $(`<div id="html_edba5b04ee64b722d1d98e2d4a4a5a58" style="width: 100.0%; height: 100.0%;">Molière – Fontaine Molière</div>`)[0];
+            popup_a7bbcda0cd695b42bc88fb25d0732a22.setContent(html_edba5b04ee64b722d1d98e2d4a4a5a58);
+        
+
+        marker_bdeec253ff1fb65082c2d82dbd6f2c8d.bindPopup(popup_a7bbcda0cd695b42bc88fb25d0732a22)
+        ;
+
+        
+    
+    
+            marker_bdeec253ff1fb65082c2d82dbd6f2c8d.bindTooltip(
+                `<div>
+                     Molière – Fontaine Molière
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9d2afa1adbfaa36180b62bbce29a225 = L.marker(
+                [48.8578, 2.3867],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_e2e3aa157243dee17d484e50ac4e632d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a434329dcd0814c7d55ab0d11d2e8cc0 = $(`<div id="html_a434329dcd0814c7d55ab0d11d2e8cc0" style="width: 100.0%; height: 100.0%;">Léon Blum – Place Léon Blum</div>`)[0];
+            popup_e2e3aa157243dee17d484e50ac4e632d.setContent(html_a434329dcd0814c7d55ab0d11d2e8cc0);
+        
+
+        marker_d9d2afa1adbfaa36180b62bbce29a225.bindPopup(popup_e2e3aa157243dee17d484e50ac4e632d)
+        ;
+
+        
+    
+    
+            marker_d9d2afa1adbfaa36180b62bbce29a225.bindTooltip(
+                `<div>
+                     Léon Blum – Place Léon Blum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28cacdd0595c8f061fc0b796f06443f3 = L.marker(
+                [48.864, 2.293],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_4f5472b194e9888f629241aa78e46199 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ca973951ce9b5d89f12e0bb11d37106 = $(`<div id="html_6ca973951ce9b5d89f12e0bb11d37106" style="width: 100.0%; height: 100.0%;">George Washington – Place d’Iéna</div>`)[0];
+            popup_4f5472b194e9888f629241aa78e46199.setContent(html_6ca973951ce9b5d89f12e0bb11d37106);
+        
+
+        marker_28cacdd0595c8f061fc0b796f06443f3.bindPopup(popup_4f5472b194e9888f629241aa78e46199)
+        ;
+
+        
+    
+    
+            marker_28cacdd0595c8f061fc0b796f06443f3.bindTooltip(
+                `<div>
+                     George Washington – Place d’Iéna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b21f32eefb1d33f5482717cebda31ace = L.marker(
+                [48.8723, 2.3319],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_eab17f83a725913af2ee3bf2fbd7e0fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f4685f2d90530f74b2d7bfd349f99e0 = $(`<div id="html_7f4685f2d90530f74b2d7bfd349f99e0" style="width: 100.0%; height: 100.0%;">Baron Haussmann – Boulevard Haussmann</div>`)[0];
+            popup_eab17f83a725913af2ee3bf2fbd7e0fc.setContent(html_7f4685f2d90530f74b2d7bfd349f99e0);
+        
+
+        marker_b21f32eefb1d33f5482717cebda31ace.bindPopup(popup_eab17f83a725913af2ee3bf2fbd7e0fc)
+        ;
+
+        
+    
+    
+            marker_b21f32eefb1d33f5482717cebda31ace.bindTooltip(
+                `<div>
+                     Baron Haussmann – Boulevard Haussmann
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe65ce2956a2d4c998f23ec0c15414b7 = L.marker(
+                [48.8519, 2.3122],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_e4c7d31bc3a906ef07236b429570780f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01c9f13223df2765b6ae4397b5d9be33 = $(`<div id="html_01c9f13223df2765b6ae4397b5d9be33" style="width: 100.0%; height: 100.0%;">Maréchal Fayolle & Maréchal Gallieni – Place Vauban</div>`)[0];
+            popup_e4c7d31bc3a906ef07236b429570780f.setContent(html_01c9f13223df2765b6ae4397b5d9be33);
+        
+
+        marker_fe65ce2956a2d4c998f23ec0c15414b7.bindPopup(popup_e4c7d31bc3a906ef07236b429570780f)
+        ;
+
+        
+    
+    
+            marker_fe65ce2956a2d4c998f23ec0c15414b7.bindTooltip(
+                `<div>
+                     Maréchal Fayolle & Maréchal Gallieni – Place Vauban
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc831414aa273ff299d5c5a253237aaf = L.marker(
+                [48.8427, 2.3648],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_71be1ada6b2870d89706a681ae44f2cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13bf58caa59c7ecba9a0add1c8833966 = $(`<div id="html_13bf58caa59c7ecba9a0add1c8833966" style="width: 100.0%; height: 100.0%;">Arthur Rimbaud – Place Teilhard‑de‑Chardin (13e)</div>`)[0];
+            popup_71be1ada6b2870d89706a681ae44f2cf.setContent(html_13bf58caa59c7ecba9a0add1c8833966);
+        
+
+        marker_cc831414aa273ff299d5c5a253237aaf.bindPopup(popup_71be1ada6b2870d89706a681ae44f2cf)
+        ;
+
+        
+    
+    
+            marker_cc831414aa273ff299d5c5a253237aaf.bindTooltip(
+                `<div>
+                     Arthur Rimbaud – Place Teilhard‑de‑Chardin (13e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91a48e5a440f6e32f153d9f6b6a7a641 = L.marker(
+                [48.8663, 2.3037],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_bdad3a83956a89ee810b45b906aab469 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa4f088bc10be5d1a7b7aeb241d627b0 = $(`<div id="html_fa4f088bc10be5d1a7b7aeb241d627b0" style="width: 100.0%; height: 100.0%;">Jacques Cartier – Place du Canada</div>`)[0];
+            popup_bdad3a83956a89ee810b45b906aab469.setContent(html_fa4f088bc10be5d1a7b7aeb241d627b0);
+        
+
+        marker_91a48e5a440f6e32f153d9f6b6a7a641.bindPopup(popup_bdad3a83956a89ee810b45b906aab469)
+        ;
+
+        
+    
+    
+            marker_91a48e5a440f6e32f153d9f6b6a7a641.bindTooltip(
+                `<div>
+                     Jacques Cartier – Place du Canada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_895b0e47eb2557db8bad939550100e35 = L.marker(
+                [48.8679, 2.298],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_4c4288d8aab9bc9bb09ad6f012c61eea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e0d29e15afa73a3c8af62ecddf864b1 = $(`<div id="html_2e0d29e15afa73a3c8af62ecddf864b1" style="width: 100.0%; height: 100.0%;">La Fayette & Washington – Place des États‑Unis</div>`)[0];
+            popup_4c4288d8aab9bc9bb09ad6f012c61eea.setContent(html_2e0d29e15afa73a3c8af62ecddf864b1);
+        
+
+        marker_895b0e47eb2557db8bad939550100e35.bindPopup(popup_4c4288d8aab9bc9bb09ad6f012c61eea)
+        ;
+
+        
+    
+    
+            marker_895b0e47eb2557db8bad939550100e35.bindTooltip(
+                `<div>
+                     La Fayette & Washington – Place des États‑Unis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79e7196f18700a489b4b8d32bf27ddda = L.marker(
+                [48.8249, 2.3279],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_a0edf0334ef3eaed3cb23c74e349dcb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f277b1133fd1b44ffc5c1946f4d9e8c = $(`<div id="html_3f277b1133fd1b44ffc5c1946f4d9e8c" style="width: 100.0%; height: 100.0%;">Vauban – Place Salvador Allende (approx.)</div>`)[0];
+            popup_a0edf0334ef3eaed3cb23c74e349dcb5.setContent(html_3f277b1133fd1b44ffc5c1946f4d9e8c);
+        
+
+        marker_79e7196f18700a489b4b8d32bf27ddda.bindPopup(popup_a0edf0334ef3eaed3cb23c74e349dcb5)
+        ;
+
+        
+    
+    
+            marker_79e7196f18700a489b4b8d32bf27ddda.bindTooltip(
+                `<div>
+                     Vauban – Place Salvador Allende (approx.)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02ddb08d9750bba8366ad7f68bf72f2f = L.marker(
+                [48.8619, 2.2789],
+                {}
+            ).addTo(map_8945dc265399e4d9739a03491ddedc33);
+        
+    
+        var popup_76cda63dafbcfc439800f2ab364e58fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d98847b3340632f69baf2fbef332770 = $(`<div id="html_3d98847b3340632f69baf2fbef332770" style="width: 100.0%; height: 100.0%;">Jean‑Paul II – Église Notre‑Dame de l’Assomption de Passy (16e)</div>`)[0];
+            popup_76cda63dafbcfc439800f2ab364e58fb.setContent(html_3d98847b3340632f69baf2fbef332770);
+        
+
+        marker_02ddb08d9750bba8366ad7f68bf72f2f.bindPopup(popup_76cda63dafbcfc439800f2ab364e58fb)
+        ;
+
+        
+    
+    
+            marker_02ddb08d9750bba8366ad7f68bf72f2f.bindTooltip(
+                `<div>
+                     Jean‑Paul II – Église Notre‑Dame de l’Assomption de Passy (16e)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
